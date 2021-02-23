@@ -1,6 +1,6 @@
 import React from "react";
-import TodoAdd from "../TodoAdd";
-import TodoList from "../TodoList";
+import TodoAdd from "./TodoAdd";
+import TodoList from "./TodoList";
 
 const TodoContainer = () => {
   let [todos, setTodos] = React.useState([]);
